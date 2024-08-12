@@ -1,0 +1,15 @@
+[package]
+name = "send_message"
+version = "1.0.0"
+authors = []
+
+[addresses]
+share_your_opinion_address ='0x0fd524fdc7891bc16df7042fe2f0d8758504e42d642fd195f0ed1de15f28d28a'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
